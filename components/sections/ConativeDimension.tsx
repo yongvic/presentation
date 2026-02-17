@@ -54,7 +54,7 @@ export function ConativeDimension() {
           <ScrollReveal delay={0.1}>
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Conversion Tactics
+                Tactiques de conversation
               </h3>
               <motion.div
                 variants={listVariants}
@@ -82,7 +82,7 @@ export function ConativeDimension() {
           <ScrollReveal delay={0.2}>
             <div>
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Campaign Impact
+                Impact de la campagne
               </h3>
               <div className="space-y-4">
                 {conative.insights.map((insight, index) => (

@@ -44,7 +44,7 @@ export function AffectiveDimension() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-semibold text-white mb-4">
-                  Key Elements
+                  Éléments clés
                 </h3>
                 <ul className="space-y-3">
                   {affective.keyPoints.map((point, index) => (
@@ -62,7 +62,7 @@ export function AffectiveDimension() {
               {/* Emotion badges */}
               <div>
                 <h3 className="text-2xl font-semibold text-white mb-4">
-                  Emotional Triggers
+                  Stratégie émotionnelle
                 </h3>
                 <div className="flex flex-wrap gap-3">
                   {affective.emotionWords.map((word, index) => (
@@ -90,7 +90,7 @@ export function AffectiveDimension() {
           <ScrollReveal delay={0.2}>
             <div>
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Emotional Strategy
+                Déclencheurs émotionnels
               </h3>
               <div className="space-y-4">
                 {affective.insights.map((insight, index) => (

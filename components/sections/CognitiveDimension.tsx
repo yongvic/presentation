@@ -43,7 +43,7 @@ export function CognitiveDimension() {
           <ScrollReveal delay={0.1}>
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Key Messaging Points
+                Points clés de messagerie
               </h3>
               {cognitive.keyPoints.map((point, index) => (
                 <motion.div
@@ -70,7 +70,7 @@ export function CognitiveDimension() {
           <ScrollReveal delay={0.2}>
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-white mb-6">
-                Strategic Insights
+                Perspectives stratégiques
               </h3>
               {cognitive.insights.map((insight, index) => (
                 <motion.div
