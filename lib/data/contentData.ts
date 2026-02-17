@@ -17,7 +17,7 @@ export const siteContent = {
     title: 'La Publicité Galaxy S25 Ultra',
     description:
       'Visualisez la campagne publicitaire officielle de Samsung qui utilise les trois dimensions de la communication marketing.',
-    youtubeEmbedId: 'l3RyWY_PXTw', // Remplacer par l'ID vidéo réel Galaxy S25 Ultra
+    youtubeEmbedId: 'Q97XLokzv6U', // Remplacer par l'ID vidéo réel Galaxy S25 Ultra
   },
 
   cognitive: {
