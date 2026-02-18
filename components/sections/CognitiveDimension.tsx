@@ -14,7 +14,7 @@ export function CognitiveDimension() {
   };
 
   return (
-    <section className="py-24 px-6 bg-background relative overflow-hidden">
+    <section className="py-24 px-6 bg-black/60 backdrop-blur-sm relative overflow-hidden">
       {/* Accent background */}
       <div className="absolute right-0 top-1/2 w-96 h-96 bg-accent/5 rounded-full transform translate-x-1/3 -translate-y-1/2 blur-3xl pointer-events-none" />
 

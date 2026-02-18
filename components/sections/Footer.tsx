@@ -24,7 +24,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="border-t border-border bg-background py-16 px-6">
+    <footer className="border-t border-border bg-black/70 backdrop-blur-sm py-16 px-6">
       <div className="max-w-5xl mx-auto">
         <motion.div
           className="text-center"

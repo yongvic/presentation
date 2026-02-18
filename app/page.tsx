@@ -4,16 +4,23 @@ import { CognitiveDimension } from '@/components/sections/CognitiveDimension';
 import { AffectiveDimension } from '@/components/sections/AffectiveDimension';
 import { ConativeDimension } from '@/components/sections/ConativeDimension';
 import { Footer } from '@/components/sections/Footer';
+import { ParallaxBackground } from '@/components/ParallaxBackground';
 
 export default function Home() {
   return (
-    <main className="w-full overflow-x-hidden">
-      <HeroSection />
-      <VideoSection />
-      <CognitiveDimension />
-      <AffectiveDimension />
-      <ConativeDimension />
-      <Footer />
-    </main>
+    <>
+      {/* Image de fond animée au défilement (parallaxe) */}
+      <ParallaxBackground />
+
+      {/* Contenu principal au-dessus du fond */}
+      <main className="relative z-10 w-full overflow-x-hidden">
+        <HeroSection />
+        <VideoSection />
+        <CognitiveDimension />
+        <AffectiveDimension />
+        <ConativeDimension />
+        <Footer />
+      </main>
+    </>
   );
 }
